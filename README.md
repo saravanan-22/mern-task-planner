@@ -27,9 +27,12 @@ cd mern-task-planner
 
 # backend
 cd server && npm install
-# create server/.env with:  PORT=5000  CONNECTION_URL=<your MongoDB URI>
+cp .env.example .env   # then add your MongoDB URI
 npm start
 
 # frontend (new terminal)
 cd client && npm install && npm start
 ```
+
+## License
+[MIT](LICENSE) © Saravanan
