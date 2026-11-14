@@ -22,8 +22,8 @@ server/   Express REST API (users & tasks)
 
 ## Run locally
 ```bash
-git clone https://github.com/saravanan-22/mern-task-planner.git
-cd mern-task-planner
+git clone https://github.com/saravanan-22/task-planner-mern.git
+cd task-planner-mern
 
 # backend
 cd server && npm install
